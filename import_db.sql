@@ -62,3 +62,9 @@ INSERT INTO replies(user_id, question_id, parent_id, body)
 VALUES
   (1, 2, NULL, 'Go to AppAcademy'),
   (2, 2, 1, 'Thanks Noah!!!');
+
+  INSERT INTO question_follows(user_id, question_id)
+  VALUES
+    (1, 3),
+    (2, 3),
+    (2, 1);
